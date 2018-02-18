@@ -43,14 +43,14 @@ size = f.shape
 img = np.zeros((size[0],size[1],3),np.uint8)
 img[0:size[0],0:size[1]] = [255,255,255]
 #使用操作說明说明
-print("畫布上的半透明点點代表畫畫上色的點")
-print("按D鍵 開始畫畫,再次按下停止畫畫")
-print("按R鍵 清空畫布")
-print("按W鍵 橡皮擦,再次按下取消橡皮擦,橡皮擦大小在精度條里設定")
-print("按Esc鍵 關閉畫布")
-print("根據調色板RGB值選擇繪畫顏色,顏色變化會反映在透明點上")
-print("根據滑條Delete值橡皮擦粗細,變化會反映在透明點上")
-print("按S鍵 保存繪圖Drawing.jpg至程序文件夾")
+print u'畫布上的半透明点點代表畫畫上色的點'
+print u'按D鍵 開始畫畫,再次按下停止畫畫'
+print u'按R鍵 清空畫布'
+print u'按W鍵 橡皮擦,再次按下取消橡皮擦,橡皮擦大小在精度條里設定'
+print u'按Esc鍵 關閉畫布'
+print u'根據調色板RGB值選擇繪畫顏色,顏色變化會反映在透明點上'
+print u'根據滑條Delete值橡皮擦粗細,變化會反映在透明點上'
+print u'按S鍵 保存繪圖Drawing.jpg至程序文件夾'
 #执行程式
 while True:  
     #读取帧图像
